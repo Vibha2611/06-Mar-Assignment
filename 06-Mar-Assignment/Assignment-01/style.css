@@ -1,0 +1,44 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+nav {
+  overflow: hidden;
+  background-color: lightgrey;
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-width: 5vh;
+}
+nav ul a {
+  color: black;
+}
+nav a:hover {
+  background: darkgray;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  font-size: 20px;
+  font-family: "optima";
+}
+nav ul li {
+  padding: 7px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  margin: 50px;
+  font-family: "optima";
+}
+.container h4 {
+  font-size: 20px;
+}
